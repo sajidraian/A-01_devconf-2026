@@ -303,3 +303,149 @@ margin-bottom:35px;
 .featured .pricing-btn:hover{
     background: #1D4ED8;
 }
+/* ================= HACKATHON SECTION ================= */
+
+.hackathon{
+    padding:120px 90px;
+    background:#F9FAFB;
+}
+
+.hackathon-header{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 70px;
+}
+
+.hackathon-header h2{
+    font-size:56px;
+    font-weight:800;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.hackathon-header p{
+    font-size:20px;
+    color:#6B7280;
+    line-height:1.8;
+}
+
+/* ===== Prize Cards ===== */
+
+.prize-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-bottom:80px;
+}
+
+.prize-card{
+    background:#FFFFFF;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.prize-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.prize-card h3{
+    font-size:26px;
+    margin-bottom:18px;
+}
+
+.prize-card h4{
+    font-size:42px;
+    color:#2563EB;
+    margin-bottom:15px;
+}
+
+.prize-card p{
+    color:#6B7280;
+    line-height:1.7;
+}
+
+/* ===== Challenge Tracks ===== */
+
+.track-title{
+    text-align:center;
+    font-size:38px;
+    color:#111827;
+    margin-bottom:40px;
+}
+
+.track-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-bottom:70px;
+}
+
+.track-card{
+    background:#FFFFFF;
+    padding:28px;
+    border-radius:16px;
+    text-align:center;
+    font-size:20px;
+    font-weight:600;
+    color:#111827;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.track-card:hover{
+    background:#2563EB;
+    color:#FFFFFF;
+    transform:translateY(-8px);
+}
+
+/* ===== Button ===== */
+
+.hackathon-btn{
+    display:block;
+    width:260px;
+    margin:0 auto;
+    text-align:center;
+    text-decoration:none;
+    background:#2563EB;
+    color:#FFFFFF;
+    padding:18px 0;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hackathon-btn:hover{
+    background:#1D4ED8;
+    transform:scale(1.05);
+}
+/* ===== Statistics ===== */
+
+.hackathon-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    margin-bottom:80px;
+}
+
+.stat{
+    background:#111827;
+    color:#FFFFFF;
+    text-align:center;
+    padding:30px;
+    border-radius:18px;
+}
+
+.stat h2{
+    font-size:42px;
+    color:#3B82F6;
+    margin-bottom:10px;
+}
+
+.stat p{
+    font-size:18px;
+}
