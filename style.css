@@ -127,6 +127,16 @@ background: #2563EB;color: white;
     margin : 0 auto;
 
 }
+.catagory{
+    display: inline-block;
+    background-color: #3B82F6;
+    color:white;
+    font-size: 12px;
+    font-weight:600;
+    padding:5px 12px;
+    border-radius: 20px;
+    margin-bottom:12px;
+}
 .speakers h2{
     font-size:56px;
     font-weight:800;
