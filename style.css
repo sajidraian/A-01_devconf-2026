@@ -449,3 +449,64 @@ margin-bottom:35px;
 .stat p{
     font-size:18px;
 }
+
+/* Hackathon Section End */
+
+
+/* FOOTER */
+.footer{
+    background: #111827;
+   
+    padding : 60px 0 30px;
+
+}
+.footer-top{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-logo img{
+  width:150px;
+
+}
+.footer-social{
+    display: flex;
+    gap: 18px;
+
+}
+.footer-social a{
+  width :42px;
+  height: 42px;
+  background:#1F2937 ;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+   
+
+}
+.footer-social a :hover{
+    background: #2563EB;
+}
+.footer-social img{
+    width :20px;
+    height:20px;
+
+}
+.footer hr{
+    border : none;
+     border-top: 1px solid rgba(255 ,255,255,.15);
+     margin: 35px 0 25px;
+
+
+}
+.footer-bottom{
+    text-align: center;
+
+
+}
+.footer-bottom p{
+    color:#9CA3AF;
+    font-size:15px;
+}
