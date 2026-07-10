@@ -117,3 +117,25 @@ background: #2563EB;color: white;
 .hero-btn:hover{
     background:#1D4ED8;
 }
+/* Speaker Section */
+.speakers{
+    padding : 120px 90 px;
+    background : #FFFFFF;
+}
+.container{
+    max-width: 1280px;
+    margin : 0 auto;
+
+}
+.speakers h2{
+    font-size:56px;
+    font-weight:800;
+    color:#111827;
+    margin: bottom 72px;
+    text-align:center;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1 fr);
+    gap : 32 px;
+}
