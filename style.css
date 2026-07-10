@@ -80,21 +80,21 @@ background: rgba(0,0,0,.55);
     align-items: center;
     text-align: center;
 }
-.hero-content{
+.banner-content{
     max-width: 850px;
     color: white;
 }
-.hero-content h1{
+.banner-content h1{
     font-size: 72px;
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 28px;
 }
-.hero-content em{
+.banner-content em{
     font-style: italic;
     font-weight: 700;
 }
-.hero-content p{
+.banner-content p{
     width: 700px;
 margin: 0 auto 45px;
 font-size: 22px;
