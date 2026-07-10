@@ -181,3 +181,125 @@ margin-bottom: 18px;
     font-size: 18px;
     line-height:  1.8;
 }
+/* Pricing Section */
+.pricing{
+    padding: 90px 90px 120px;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 56px;
+    font-weight:800;
+    color:#111827;
+    margin-bottom:16px;
+}
+.pricing-subtitle{
+    text-align: center;
+    font-size: 18px;
+    color:#6B7280;
+    margin-bottom: 70px;
+}
+.pricing-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    align-items: stretch;
+
+
+}
+.pricing-card{
+    background: #FFFFFF;
+    border:1px solid #E5E7EB;
+    border-radius:20px;
+    padding:34px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: .35s;
+}
+.pricing-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+.featured{
+    background:#111827;
+    color:#FFFFFF;
+    transform:scale(1.08);
+
+}
+.featured:hover{
+    transform: scale(1.05)translateY(-8px);
+
+}
+.plan{
+    font-size: 14px;
+    font-weight:700;
+    letter-spacing: 1px;
+    color:#6B7280;
+    margin-bottom:12px;
+
+}
+.featured .plan{
+    color: #93C5FD;
+}
+.pricing-card h3{
+
+    font-size: 56px;
+    font-weight:800;
+    margin-bottom:8px;
+
+}
+.price-info{
+    color:#6B7280;
+    margin-bottom:24px;
+}
+.featured .price-info{
+    color:#D1D5DB;
+}
+.pricing-card hr{
+    border:none;
+    border-top: 1px solid #E5E7EB;
+    margin: 25px 0;
+}
+.featured hr{
+    border-color:#374151;
+}
+.pricing-card ul{
+list-style: none;
+margin-bottom:35px;
+}
+.pricing-card ul li{
+    margin-bottom:16px;
+    color:#4B5563;
+    line-height:1.6;
+}
+.pricing-card ul li::before{
+    content :"•";
+    color:#2563EB;
+    margin-right:10px;
+
+}
+.featured ul li{
+    color:#E5E7EB;
+
+
+}
+.pricing-btn{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    padding:18px;
+    border:2px solid #2563EB;
+    border-radius:10px;
+    font-weight: 600;
+    color:#2563EB;
+    transition: .3s;
+}
+.pricing-btn:hover{
+    background: #2563EB;
+    color:#FFFFFF;
+}
+.featured .pricing-btn{
+  
+    color:#FFFFFF;
+}
+.featured .pricing-btn:hover{
+    background: #1D4ED8;
+}
